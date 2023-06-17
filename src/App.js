@@ -3,9 +3,11 @@ import React, { useEffect, useState } from 'react'
 import Post from './Post'
 import NewPost from './NewPost'
 
-const BASE_URL = process.env.NODE_ENV === 'production'
-  ? process.env.REACT_APP_API_BASE_URL
-  : 'http://localhost:8000/'
+// const BASE_URL = process.env.NODE_ENV === 'production'
+//   ? process.env.REACT_APP_API_BASE_URL
+//   : 'http://localhost:8000/'
+
+const BASE_URL = "https://polar-inlet-94314-0d12f768db83.herokuapp.com/"
 
 function App() {
   const [posts, setPosts] = useState([])
