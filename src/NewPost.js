@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './NewPost.css'
 
-const BASE_URL = 'http://localhost:8000/'
+const BASE_URL = 'https://polar-inlet-94314-0d12f768db83.herokuapp.com/'
 
 function NewPost() {
   const [image, setImage] = useState(null)
